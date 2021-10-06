@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 430px) {
   .container {
-    width: 123vw;
+    width: 100vw;
     height: 112vh;
   }
   .containerBody {
