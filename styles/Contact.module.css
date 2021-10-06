@@ -1,0 +1,93 @@
+.contactContainer {
+  height: 100vh;
+  background-color: #e0ece4;
+  /* padding: 5rem 30rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.contactContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid white;
+  padding: 2rem 10px;
+  border-radius: 1px;
+}
+.inputText {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.inputText input {
+  border: none;
+  height: 3.5rem;
+  width: 400px;
+  font-size: 20px;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.messageInput textarea {
+  height: 4rem;
+  width: 400px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 1.3rem;
+  border: none;
+  background-color: lightgreen;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.errorMsg {
+  background-color: #ff5c58;
+  padding: 5px 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .contactContainer {
+    min-width: 100vw;
+    height: 119vh;
+  }
+  .inputText input {
+    border: none;
+    height: 3.5rem;
+    width: 300px;
+    font-size: 20px;
+    z-index: 1;
+  }
+  .messageInput textarea {
+    height: 4rem;
+    width: 300px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .inputText input {
+    width: 95%;
+  }
+  .messageInput textarea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 267px) {
+  .contactContainer > form {
+    padding: 0px;
+    border: none;
+  }
+}

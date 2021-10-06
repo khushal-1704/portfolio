@@ -1,0 +1,23 @@
+.downloadBox {
+  height: auto;
+  width: 10%;
+  background-color: #b1cfbb;
+  position: fixed;
+  right: 0;
+  top: 60%;
+  border-radius: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  z-index: 999;
+}
+
+@media screen and (max-width: 500px) {
+  .downloadBox {
+    left: 39%;
+    width: 105px;
+    /* bottom: -4px; */
+    top: 85%;
+  }
+}
