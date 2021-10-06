@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 400px) {
   .projectContainer {
-    min-width: 113vw;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     padding: 2rem;
