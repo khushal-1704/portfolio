@@ -16,7 +16,7 @@ const Projects = () => {
                 </div>
 
                 <div className={styles.cards}>
-                    <Card topImg='cred.png' cardName='CRED' cardContent='BUILD ONLINE CREDIT CARD BILL PAYING UI CLONE WITH REUSABLE COMPONENTS AND STYLED WITH CSS 3' cardLink='https://cred-clone-949e6.web.app/' />
+                    <Card topImg='cred.png' cardName='CRED' cardContent='BUILD ONLINE CREDIT CARD BILL PAYING UI CLONE FROM SCRATCH WITH REUSABLE COMPONENTS AND STYLED WITH CSS 3.' cardLink='https://cred-clone-949e6.web.app/' />
                 </div>
 
                 <div className={styles.cards}>
