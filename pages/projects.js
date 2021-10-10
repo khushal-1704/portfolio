@@ -12,7 +12,7 @@ const Projects = () => {
                 </div>
 
                 <div className={styles.cards}>
-                    <Card topImg='linkedin.png' cardName='LINKEDIN' cardContent='CREATED FULLY RESPONSIVE LINKEDIN CLONE FROM SCRATCH WITH REACT JS AND STYLED WITH STYLED-COMPONENTS AND MATERIAL UI ICONS.' cardLink='https://linkedin-bui.web.app/' />
+                    <Card topImg='linkedin.png' cardName='LINKEDIN' cardContent='CREATED LINKEDIN CLONE FROM SCRATCH WITH REACT JS AND STYLED WITH STYLED-COMPONENTS AND MATERIAL UI ICONS.' cardLink='https://linkedin-bui.web.app/' />
                 </div>
 
                 <div className={styles.cards}>
@@ -20,7 +20,7 @@ const Projects = () => {
                 </div>
 
                 <div className={styles.cards}>
-                    <Card topImg='tesla.png' cardName='TESLA' cardContent='CREATED TESLA UI WITH REACT JS AND STYLED-COMPONENTS.' cardLink='https://tesla-clone-d3fd0.web.app/' />
+                    <Card topImg='tesla.png' cardName='TESLA' cardContent='CREATED TESLA UI FROM SCRATCH WITH REACT JS , MATERIAL UI AND STYLED WITH STYLED-COMPONENTS.' cardLink='https://tesla-clone-d3fd0.web.app/' />
                 </div>
 
                 <div className={styles.cards}>
