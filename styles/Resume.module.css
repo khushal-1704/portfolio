@@ -1,23 +1,56 @@
 .downloadBox {
-  height: auto;
-  width: 10%;
-  background-color: #b1cfbb;
+  height: 70px;
+  width: 70px;
+  background-color: #484bf8;
   position: fixed;
-  right: 0;
-  top: 60%;
-  border-radius: 5px;
+  right: 0.5%;
+  top: 70%;
+  border-radius: 999px;
   padding: 10px 5px;
   text-align: center;
-  border: 1px solid white;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  z-index: 999;
+  z-index: 998;
+  animation: shake 3s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation-iteration-count: infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.downloadBox:hover {
+  animation: none;
+}
+
+.downloadImg {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 @media screen and (max-width: 500px) {
   .downloadBox {
-    left: 30%;
-    width: 105px;
-    /* bottom: -4px; */
-    top: 85%;
+    top: 75%;
   }
 }

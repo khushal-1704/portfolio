@@ -10,7 +10,7 @@ const About = () => {
                 <p>Hi! I'm  Khushal Kumar Sain, Engineering UG Student
                     Since my school days, I loved spending a great amount of time in creating stuff.&nbsp;</p>
                 <p>From preparing for inter - school competition to college projects, I enjoyed all of them.
-                    During pandemic, I cam across
+                    During pandemic, I came across
                     <strong style={{ color: 'red' }}> WEB DEVELOPMENT </strong> and understood the wide range of possibilities web development holds.</p>
                 <p>For me, a website is all about experience.
                     New technologies excite me and motivates me to explore more.

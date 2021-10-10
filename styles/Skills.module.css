@@ -1,5 +1,5 @@
 .skillPage {
-  background-color: #e0ece4;
+  /* background-color: ; */
   min-height: 88vh;
   overflow: hidden;
   display: flex;
@@ -9,11 +9,13 @@
   padding: 2rem 5rem;
   width: 100vw;
   padding-top: 5rem;
+  background-color: aliceblue;
+  font-family: "Roboto Slab", serif;
 }
 
 .skillPage h1 {
   font-size: 3rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
 }
 
 .skillsContainer {
@@ -42,7 +44,7 @@
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   animation-name: roleIn;
   animation-duration: 2s;
-  animation-timing-function: ease-in;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .skillBox span {

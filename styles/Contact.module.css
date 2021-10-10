@@ -1,6 +1,6 @@
 .contactContainer {
   height: 100vh;
-  background-color: #e0ece4;
+  background-color: aliceblue;
   /* padding: 5rem 30rem; */
   display: flex;
   justify-content: center;
@@ -12,9 +12,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid white;
   padding: 2rem 10px;
-  border-radius: 1px;
+  border-radius: 5px;
+  border: 6px solid white;
 }
 .inputText {
   display: flex;
@@ -44,9 +44,10 @@
 .button {
   margin-top: 1.3rem;
   border: none;
-  background-color: lightgreen;
+  background-color: #090979;
   width: 100px;
   height: 40px;
+  color: aliceblue;
   border-radius: 5px;
 }
 
