@@ -14,7 +14,7 @@ const About = () => {
                     <strong style={{ color: 'red' }}> WEB DEVELOPMENT </strong> and understood the wide range of possibilities web development holds.</p>
                 <p>For me, a website is all about experience.
                     New technologies excite me and motivates me to explore more.
-                    Currently, I'm looking for internship in a startup.</p>
+                    Currently, I'm looking for internship in a fast paced startup.</p>
             </div>
         </div>
     );
