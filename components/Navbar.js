@@ -11,7 +11,7 @@ const Navbar = () => {
             <input type="checkbox" id={styles.navCheck} />
             <div className={styles.navHeader}>
                 <div className={styles.navTitle}>
-
+                    myPortfolio( );
                 </div>
             </div>
             <div className={styles.navBtn}>

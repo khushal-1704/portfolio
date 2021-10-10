@@ -9,18 +9,6 @@ const Contact = () => {
     const { reset, register, handleSubmit } = useForm()
     const form = useRef()
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-    //     emailjs.sendForm('service_eaw9u1k', 'template_8iqeunp', form.current, 'user_MlkADPe5TE1xFR4A9NUYG')
-    //         .then((result) => {
-    //             console.log(result.text);
-    //         }, (error) => {
-    //             console.log(error.text);
-    //         });
-    //     reset();
-
-    // }
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_eaw9u1k', 'template_8iqeunp', form.current, 'user_MlkADPe5TE1xFR4A9NUYG')
@@ -36,6 +24,7 @@ const Contact = () => {
     return (
         <div className={styles.contactContainer}>
             {/* <form ref={form} onSubmit={handleSubmit(sendEmail)}> */}
+            <h1 className={styles.title}>Contact Me</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div className={styles.inputText}>
                     <input type="text" placeholder='Name' id='name' name='user_name' />

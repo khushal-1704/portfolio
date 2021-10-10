@@ -14,7 +14,7 @@
 
 .top {
   /* width: 30%; */
-  padding-left: 25%;
+  padding-left: 18%;
   padding-bottom: 2%;
 }
 
@@ -31,12 +31,12 @@
   font-size: 6vw;
   /* font-family: "Caramel", cursive; */
   font-weight: 800;
-  padding-left: 28%;
+  padding-left: 20%;
   padding-bottom: 3%;
 }
 
 .bottom {
-  padding-left: 60%;
+  padding-left: 51%;
   font-size: larger;
   font-weight: bold;
 }
@@ -72,9 +72,12 @@
     padding: 50px 0 0;
   }
   .top {
-    font-size: 8vw;
+    /* font-size: 8vw; */
     padding-left: 15%;
     padding-bottom: 0;
+  }
+  .top span {
+    font-size: 9vw;
   }
   .main {
     padding-left: 15%;
@@ -91,11 +94,11 @@
 }
 @media screen and (max-width: 500px) {
   .containerBody {
-    padding: 100px 0px;
+    padding: 30px 0px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    height: 100vh;
+    height: 88vh;
   }
   .top {
     padding: 20px 0 0 10px;
@@ -122,7 +125,7 @@
 @media screen and (max-width: 430px) {
   .container {
     width: 100vw;
-    height: 112vh;
+    height: 92vh;
   }
   .containerBody {
     padding: 80px 0 0;
@@ -130,7 +133,7 @@
     flex-direction: column;
   }
   .top > span {
-    font-size: 10vw;
+    font-size: 14vw;
   }
   .top span:nth-child(2) {
     font-size: 4vw;
@@ -139,14 +142,15 @@
     font-size: 15vw;
   }
   .bottom {
-    padding: 30px 0 0;
+    padding-left: 10px;
+    padding-top: 10px;
   }
   .bottomMain {
     font-size: 5vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .containerBody {
     padding: 10px 0 0;
     align-items: flex-start;
@@ -158,4 +162,4 @@
     padding-left: 10px;
     padding-top: 10px;
   }
-}
+} */

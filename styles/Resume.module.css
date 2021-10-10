@@ -1,7 +1,7 @@
 .downloadBox {
   height: 70px;
   width: 70px;
-  background-color: #484bf8;
+  background-color: #03045e;
   position: fixed;
   right: 0.5%;
   top: 70%;
@@ -22,8 +22,9 @@
 }
 
 .downloadImg {
-  width: 100%;
-  height: 100%;
+  padding-top: 6px;
+  width: 60%;
+  height: 83%;
 }
 
 @keyframes shake {

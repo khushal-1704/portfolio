@@ -1,6 +1,6 @@
 .skillPage {
   /* background-color: ; */
-  min-height: 88vh;
+  min-height: 90vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   align-items: center;
   padding: 2rem 5rem;
   width: 100vw;
-  padding-top: 5rem;
+  padding-top: 3rem;
   background-color: aliceblue;
   font-family: "Roboto Slab", serif;
 }
@@ -16,6 +16,7 @@
 .skillPage h1 {
   font-size: 3rem;
   font-family: "Roboto Slab", serif;
+  color: #03045e;
 }
 
 .skillsContainer {

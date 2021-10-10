@@ -7,7 +7,7 @@ const Resume = () => {
         <Tooltip title='Download Resume' placement="top-start" arrow>
             <div className={styles.downloadBox} data-aos='zoom-in'>
                 <a href="/khushalkrsain_resume.pdf" download>
-                    <img className={styles.downloadImg} style={{ color: 'white' }} src="/images/download.png" alt="" />
+                    <img className={styles.downloadImg} style={{ color: 'white' }} src="/images/download-white.ico" alt="" />
                 </a>
             </div>
         </Tooltip>
