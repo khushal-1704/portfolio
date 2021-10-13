@@ -8,6 +8,10 @@
   font-family: "Roboto Slab", serif;
 }
 
+.angleBr {
+  display: none;
+}
+
 .containerBody {
   padding: 40px 10px;
 }
@@ -68,6 +72,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  .angleBr {
+    display: block;
+    padding-left: 15%;
+    font-size: 7vw;
+    font-weight: 900;
+  }
   .containerBody {
     padding: 50px 0 0;
   }
@@ -93,6 +103,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .angleBr {
+    padding: 10px 0 0 10px;
+  }
   .containerBody {
     padding: 30px 0px;
     display: flex;

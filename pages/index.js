@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.containerBody}>
+        <div className={styles.angleBr}>&lt;&gt;</div>
         <div className={styles.top} data-aos='zoom-in' data-delay=''>
           <span >Hi</span>
           <span >, i'm</span>
@@ -22,6 +23,8 @@ export default function Home() {
         <div className={styles.bottom} data-aos='zoom-in' data-aos-delay="1000">
           <span>and i'm a<span className={styles.bottomMain} > FRONTEND DEVELOPER </span>.</span>
         </div>
+        <div className={styles.angleBr}>&lt;/&gt;</div>
+
       </main>
 
     </div>

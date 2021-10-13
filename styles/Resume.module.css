@@ -50,6 +50,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .downloadBox {
+    height: 60px;
+    width: 60px;
+  }
+}
 @media screen and (max-width: 500px) {
   .downloadBox {
     top: 75%;

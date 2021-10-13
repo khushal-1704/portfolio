@@ -10,12 +10,16 @@ const Navbar = () => {
         <div className={styles.nav}>
             <input type="checkbox" id={styles.navCheck} />
             <div className={styles.navHeader}>
-                <div className={styles.navTitle}>
-                    myPortfolio( );
-                </div>
+                <Link href='/'>
+                    <a target='_parent'>
+                        <div className={styles.navTitle}>
+                            myPortfolio( );
+                        </div>
+                    </a>
+                </Link>
             </div>
             <div className={styles.navBtn}>
-                <label for={styles.navCheck}>
+                <label htmlFor={styles.navCheck}>
                     <span></span>
                     <span></span>
                     <span></span>

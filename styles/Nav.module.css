@@ -14,7 +14,7 @@
   display: inline;
 }
 
-.nav > .navHeader > .navTitle {
+.navTitle {
   display: inline-block;
   font-size: 22px;
   color: #fff;
