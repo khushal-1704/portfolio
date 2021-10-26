@@ -52,34 +52,34 @@
 }
 
 @media screen and (max-width: 600px) {
-  .nav {
+  .navBar {
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
   }
-  .nav > .navBtn {
+  .navbar > .navBtn {
     display: inline-block;
     /* position: absolute; */
     right: 0px;
     top: 12px;
   }
-  .nav > .navBtn > label {
+  .navbar > .navBtn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
     padding: 13px;
   }
-  .nav > .navBtn > label:hover,
-  .nav #navCheck:checked ~ .navBtn > label {
+  .navbar > .navBtn > label:hover,
+  .navbar #navCheck:checked ~ .navBtn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  .nav > .navBtn > label > span {
+  .navbar > .navBtn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid #eee;
   }
-  .nav > .navLinks {
+  .navbar > .navLinks {
     position: absolute;
     display: block;
     width: 100%;
@@ -95,22 +95,22 @@
     top: 50px;
     left: 0px;
   }
-  .nav > .navLinks > a {
+  .navbar > .navLinks > a {
     display: block;
     width: 100%;
     color: #fff;
     font-size: 5vw;
   }
-  .nav > #navCheck:not(:checked) ~ .navLinks {
+  .navbar > #navCheck:not(:checked) ~ .navLinks {
     height: 0px;
   }
-  .nav > #navCheck:checked ~ .navLinks {
+  .navbar > #navCheck:checked ~ .navLinks {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
 }
 
-.navBar {
+.navbar {
   /* background-color: #b1cfbb; */
   background-color: #03045e;
   /* position: fixed; */
@@ -157,7 +157,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .navBar {
+  .navbar {
     /* justify-content: flex-end; */
     padding: 20px 15px;
     height: 50vh;
