@@ -16,11 +16,3 @@ const Resume = () => {
 
 export default Resume;
 
-{/* <Tooltip title="Add" arrow>
-    <Button>Arrow</Button>
-</Tooltip> */}
-
-// Tooltip
-//     < div div className = { styles.downloadBox } data - aos='zoom-in' >
-//         <a href="/khushalkrsain_resume.pdf" download><img src="/images/download.png" alt="" className={styles.downloadImg} /></a>
-//         </ >

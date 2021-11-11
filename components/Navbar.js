@@ -43,22 +43,3 @@ export default Navbar;
 
 
 
-/*
-return (
-        <div className={styles.navBar}>
-            <div className={styles.navContainer}>
-                <div className={styles.menuBar}>
-                    <div className={styles.burger}>
-                        <img src="/images/menu.png" alt="" />
-                    </div>
-                </div>
-                <ul className={styles.navContainer} >
-                    <li className={styles.navElements} ><Link href='/'><a>Home</a></Link></li>
-                    <li className={styles.navElements}><Link href='/skills'><a>Skills</a></Link></li>
-                    <li className={styles.navElements}><Link href='/projects'><a>Projects</a></Link></li>
-                    <li className={styles.navElements}><Link href='/about'><a>About</a></Link></li>
-                    <li className={styles.navElements}><Link href='/contactMe'><a>Contact</a></Link></li>
-                </ul>
-            </div>
-    );
-*/
