@@ -11,6 +11,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+
         emailjs.sendForm('service_eaw9u1k', 'template_8iqeunp', form.current, 'user_MlkADPe5TE1xFR4A9NUYG')
             .then((result) => {
                 console.log(result.text);
@@ -18,6 +19,7 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+
 
     }
 
@@ -45,20 +47,3 @@ export default Contact
 
 
 
-/**
- c1d3fe
- b6ccfe
- abc4ff
- f4978e
- f08080
- */
-
-/*
-{
-from_name: "Jatin",
-to_name: "khushal ",
-message: "congo",
-email: "lavishgoyal@gmail.com",
-reply_to: "patoni",
-}
- */
